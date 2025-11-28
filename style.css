@@ -127,7 +127,7 @@ button.btn-close:hover {
 
 
 
-@media(max-width:560px) {
+@media(max-width:450px) {
 
 
 
@@ -164,7 +164,7 @@ button.btn-close:hover {
     ul li a {
 
         margin-right: 30px;
-        font-size: 12px;
+        font-size: 1rem;
         color: #ffffff;
         text-decoration: none;
     }
@@ -264,7 +264,7 @@ button.btn-close:hover {
         opacity: 1;
 
         position: absolute;
-        left: 30px;
+        left: 60px;
         top: 30%;
 
 
