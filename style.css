@@ -133,7 +133,7 @@ button.btn-close:hover {
 
 
     nav {
-        width: 450px;
+        width: 420px;
         height: 100px;
         background: linear-gradient(green, rgb(40, 37, 37));
         /* padding: -5px 0;
@@ -150,6 +150,11 @@ button.btn-close:hover {
         font-size: 1rem;
         font-weight: none;
         margin-right: 50px;
+    }
+
+    ul li a {
+        color: #ffffff;
+        text-decoration: none;
     }
 
 
@@ -360,7 +365,7 @@ button.btn-close:hover {
     }
 
     footer {
-        width: 450px;
+        width: 420px;
         background-color: lightblue;
 
         display: flex;
