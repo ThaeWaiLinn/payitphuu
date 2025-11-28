@@ -133,7 +133,7 @@ button.btn-close:hover {
 
 
     nav {
-        width: 580px;
+        width: 500px;
         height: 100px;
         background: linear-gradient(green, rgb(40, 37, 37));
         /* padding: -5px 0;
@@ -147,7 +147,7 @@ button.btn-close:hover {
 
     .title {
         color: white;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: none;
         margin-right: 50px;
     }
@@ -160,7 +160,7 @@ button.btn-close:hover {
     }
 
     .content {
-        width: 580px;
+        width: 500px;
         height: 200px;
         background-color: #f9f9f9;
         font-size: 1rem;
