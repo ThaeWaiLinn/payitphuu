@@ -167,6 +167,7 @@ button.btn-close:hover {
         font-size: 1rem;
         color: #ffffff;
         text-decoration: none;
+        opacity: 1;
     }
 
 
@@ -346,7 +347,7 @@ button.btn-close:hover {
         padding: 50px 0;
 
         position: absolute;
-        right: 50px;
+        right: -70px;
 
         transform: translateY(60%);
 
