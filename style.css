@@ -127,23 +127,32 @@ button.btn-close:hover {
 
 
 
-@media(max-width:700px) {
+@media(max-width:600px) {
 
 
 
 
     nav {
-        width: 420px;
-        height: 100px;
+        width: 430px;
+        height: 120px;
         background: linear-gradient(green, rgb(40, 37, 37));
-        /* padding: -5px 0;
+        padding: -5px 0;
         margin-bottom: 20px;
 
-        display: inline-block; */
+        display: inline-block;
 
 
 
     }
+
+    /* nav ul li {
+        width: 430px;
+        height: 120px;
+        background: linear-gradient(green, rgb(40, 37, 37));
+        float: left;
+        list-style-type: none;
+        margin-left: 10px;
+    } */
 
     .title {
         color: white;
