@@ -127,14 +127,14 @@ button.btn-close:hover {
 
 
 
-@media(max-width:600px) {
+@media(max-width:560px) {
 
 
 
 
     nav {
-        width: 430px;
-        height: 120px;
+        width: 450px;
+        height: 100px;
         background: linear-gradient(green, rgb(40, 37, 37));
         padding: -5px 0;
         margin-bottom: 20px;
@@ -374,7 +374,7 @@ button.btn-close:hover {
     }
 
     footer {
-        width: 430px;
+        width: 450px;
         background-color: lightblue;
 
         display: flex;
