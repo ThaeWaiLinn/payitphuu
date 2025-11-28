@@ -127,38 +127,57 @@ button.btn-close:hover {
 
 
 
-@media(max-width:650px) {
-    ul {
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
+@media(max-width:700px) {
 
 
-    }
+
 
     nav {
-        padding: -5px 0;
+        width: 580px;
+        height: 100px;
+        background: linear-gradient(green, rgb(40, 37, 37));
+        /* padding: -5px 0;
         margin-bottom: 20px;
+
+        display: inline-block; */
+
 
 
     }
+
+    .title {
+        color: white;
+        font-size: 1.3rem;
+        font-weight: none;
+        margin-right: 50px;
+    }
+
+
 
     .loti {
         cursor: pointer;
         color: #f2f2f2;
     }
 
-    nav a {
+    .content {
+        width: 580px;
+        height: 200px;
+        background-color: #f9f9f9;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 200%;
 
-        font-size: 10px;
-        font-weight: 200;
+
     }
 
 
 
     .imgcontainer {
-        max-width: 800px;
-        /* margin: auto; */
+        background-color: #f1f1f1;
+        max-width: 550px;
+        /* margin-right: 100px; */
+        margin: auto;
+
 
         display: grid;
         grid-template-columns: 132px;
@@ -179,6 +198,12 @@ button.btn-close:hover {
         position: relative;
     }
 
+    .imgcontainer p {
+        width: 100px;
+        height: 50px;
+        background-color: blue;
+    }
+
 
 
 
@@ -190,7 +215,9 @@ button.btn-close:hover {
         
 
         margin-bottom: 10px; */
-        margin: 0 10px;
+        margin: 30px 80px;
+
+
 
 
 
@@ -200,7 +227,7 @@ button.btn-close:hover {
         align-items: center;
 
         cursor: pointer;
-
+        opacity: 0.9;
         /* position: relative; */
 
         transition: all .3s ease;
@@ -214,13 +241,15 @@ button.btn-close:hover {
     .imgbox.show {
         width: 400px;
         height: 400px;
+        box-shadow: 5px 10px 30px #000;
 
         /* display: block; */
         z-index: 10;
+        opacity: 1;
 
         position: absolute;
-        left: 13px;
-        top: 30%;
+        left: 30px;
+        top: 20%;
 
 
 
@@ -232,14 +261,14 @@ button.btn-close:hover {
 
     .imgbox .img {
         width: 100%;
-        height: 100%;
+        height: 130%;
 
         object-fit: cover;
     }
 
     button.btn-close {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         color: #000;
         background-color: transparent;
         border-radius: 50%;
@@ -247,7 +276,7 @@ button.btn-close:hover {
 
         position: absolute;
         right: 20px;
-        top: 20px;
+        top: -25px;
 
         z-index: 10;
 
@@ -291,7 +320,7 @@ button.btn-close:hover {
     .concontainer {
         width: 430px;
         height: 300px;
-        background-color: rgb(120, 21, 21);
+        background-color: rgb(16, 33, 110);
 
         display: flex;
         justify-content: center;
@@ -300,7 +329,10 @@ button.btn-close:hover {
         border-radius: 10px;
         padding: 50px 0;
 
-        transform: translateY(70%);
+        position: absolute;
+        right: -15%;
+
+        transform: translateY(60%);
 
         /* display: none; */
 
@@ -329,18 +361,21 @@ button.btn-close:hover {
     }
 
     footer {
-        background-color: #eee;
+        width: 600px;
+        background-color: lightblue;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
         padding: 30px 0;
+        margin-top: 20px;
+
     }
 
     footer p {
         color: #000;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 500;
     }
 
