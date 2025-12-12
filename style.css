@@ -398,7 +398,7 @@ button.btn-close:hover {
         padding: 50px 0;
 
         position: absolute;
-        right: -50px;
+        left: 17%;
 
         transform: translateY(60%);
 
